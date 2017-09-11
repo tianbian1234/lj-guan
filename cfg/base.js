@@ -36,6 +36,7 @@ module.exports = {
       stores: `${defaultSettings.srcPath}/stores/`,
       styles: `${defaultSettings.srcPath}/styles/`,
       public: `${defaultSettings.srcPath}/public/`,
+      peixun: `${defaultSettings.srcPath}/peixun/`,
       config: `${defaultSettings.srcPath}/config/` + process.env.REACT_WEBPACK_ENV,
       'react/lib/ReactMount': 'react-dom/lib/ReactMount'
     }
